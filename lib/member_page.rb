@@ -73,9 +73,7 @@ class MemberPage < Scraped::HTML
   end
 
   field :photo do
-    foto = noko.at_css('#datos_diputado img[name="foto"]')
-    return if foto.nil?
-    foto[:src]
+    noko.at_css('#datos_diputado img[name="foto"]/@src').text
   end
 
   private
