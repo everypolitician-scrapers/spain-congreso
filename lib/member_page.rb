@@ -83,11 +83,15 @@ class MemberPage < Scraped::HTML
   end
 
   def seat
-    noko.at_css('div#curriculum div.texto_dip ul li div.dip_rojo:first').text.tidy
+    seat_and_group.first.text.tidy
   end
 
   def group
-    noko.at_css('div#curriculum div.texto_dip ul li div.dip_rojo:last').text.tidy
+    seat_and_group.last.text.tidy
+  end
+
+  def seat_and_group
+    noko.xpath('.//div[@id="curriculum"]/div[@class="texto_dip"][1]//div[@class="dip_rojo"]')
   end
 
   def faction_information
