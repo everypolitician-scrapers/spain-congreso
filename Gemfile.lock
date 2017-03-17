@@ -17,7 +17,7 @@ GIT
 
 GIT
   remote: https://github.com/everypolitician/scraper_test.git
-  revision: a217cbd51d0544261c059f877628ed384b8844ac
+  revision: 9e12a20f8f9a87aa1814dac210d70e51f7ad03b7
   specs:
     scraper_test (0.1.0)
       minitest
