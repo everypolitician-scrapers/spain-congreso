@@ -1,8 +1,8 @@
 GIT
   remote: https://github.com/everypolitician/scraped.git
-  revision: 415f6811bfb2a680663766ea7bcd610bf4604145
+  revision: 1a5c169046bf0fc3d0f4e867ba86a97c4dcac794
   specs:
-    scraped (0.4.0)
+    scraped (0.5.0)
       field_serializer (>= 0.3.0)
       nokogiri
       require_all
