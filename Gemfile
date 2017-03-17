@@ -20,5 +20,6 @@ group :development do
 end
 
 group :test do
+  gem 'minitest-around'
   gem 'scraper_test', github: 'everypolitician/scraper_test'
 end
