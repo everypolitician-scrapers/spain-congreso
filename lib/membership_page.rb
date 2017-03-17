@@ -2,7 +2,7 @@
 
 require 'scraped'
 
-class MemberPage < Scraped::HTML
+class MembershipPage < Scraped::HTML
   decorator Scraped::Response::Decorator::CleanUrls
 
   field :term do

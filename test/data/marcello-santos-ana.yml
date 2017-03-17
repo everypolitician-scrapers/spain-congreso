@@ -1,4 +1,4 @@
-:class: MemberPage
+:class: MembershipPage
 :url: http://www.congreso.es/portal/page/portal/Congreso/Congreso/Diputados/BusqForm?next_page=/wc/fichaDiputado&idDiputado=338&idLegislatura=12
 :to_h:
   :term: '12'
