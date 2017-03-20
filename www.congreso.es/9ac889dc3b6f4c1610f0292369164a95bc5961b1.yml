@@ -25,10 +25,10 @@ response:
     Content-Type:
     - text/html; charset=utf-8
     Last-Modified:
-    - Mon, 20 Mar 2017 15:11:27 GMT
+    - Mon, 20 Mar 2017 15:13:14 GMT
     Server:
     - Oracle Application Server/10.1.2.3.0 Microsoft-IIS/5.0 OracleAS-Web-Cache-10g/10.1.2.3.0
-      (TH;max-age=2592000+0;age=201;ecid=72058003129660104,0)
+      (TM;max-age=2592000+0;age=4;ecid=486401255173,0)
     Content-Length:
     - '69518'
     Content-Location:
@@ -36,10 +36,14 @@ response:
     Cache-Control:
     - max-age=0
     Date:
-    - Mon, 20 Mar 2017 15:11:35 GMT
+    - Mon, 20 Mar 2017 15:13:18 GMT
     Connection:
     - keep-alive
+    Set-Cookie:
+    - ORA_WX_SESSION="545FAD85FC5EA25A1E3FAE66E3BBBF6CCF3E322A-2#4"; path=/
+    - portal=9.0.3+en-us+us+AMERICA+4B2BB628EAD300D6E053AC1A640B00D6+EC80C71159C23FD08D85F379EB916F3EC1C91EEC40D86F6964B08D336D10369DF205A8931459BAABA58CD7C87AF595392F493F3BD12EC633357255A59730CC5C79008AB3C1CAB74CC0A5BA487452832FB1A4AC4FA4E4AEA0;
+      path=/
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Mon, 20 Mar 2017 15:11:35 GMT
+recorded_at: Mon, 20 Mar 2017 15:13:18 GMT
