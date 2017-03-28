@@ -1,0 +1,47 @@
+---
+request:
+  method: get
+  uri: http://www.congreso.es/portal/page/portal/Congreso/Congreso/Diputados/BusqForm?idLegislatura=12&next_page=/wc/listadoFichas?idDiputado=279
+  body:
+    encoding: US-ASCII
+    string: ''
+  headers:
+    Cookie:
+    - ORA_WX_SESSION='545FAD85FC5EA25A1E3FAE66E3BBBF6CCF3E322A-2#4';portal=9.0.3+en-us+us+AMERICA+4BCA6DEE85CA0168E053AC1A640B0168+1005E970E86D77DBD51F4EC1F7B63FFEC0C774ADD3F46FB4DB0B4092E5D7C4D2103C10D0D7EDFC0C0CA2C8E0111605A9CFD4615E3FFE5BF4773319FDA7E4650B20B8B147BBBE9B2540714A8E6E6BB33C6A7E368FB35E8F67
+    Accept-Encoding:
+    - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+    Accept:
+    - "*/*"
+    User-Agent:
+    - Ruby
+response:
+  status:
+    code: 200
+    message: OK
+  headers:
+    Surrogate-Key:
+    - search-key=("si73" "pa73,1333154" "ht1117773020" "pp73,1333154" "pp73,1333049"
+      "pp73,1330682" "pp73,1")
+    Etag:
+    - '"us, us"'
+    Content-Type:
+    - text/html; charset=utf-8
+    Last-Modified:
+    - Tue, 28 Mar 2017 12:49:52 GMT
+    Server:
+    - Oracle Application Server/10.1.2.3.0 Microsoft-IIS/5.0 OracleAS-Web-Cache-10g/10.1.2.3.0
+      (TM;max-age=2592000+0;age=1;ecid=72057870684763591,0)
+    Content-Length:
+    - '62893'
+    Content-Location:
+    - "/servlet/page/Congreso/Congreso/Diputados/BusqForm"
+    Cache-Control:
+    - max-age=0
+    Date:
+    - Tue, 28 Mar 2017 12:49:53 GMT
+    Connection:
+    - keep-alive
+  body:
+    encoding: ASCII-8BIT
+  http_version: 
+recorded_at: Tue, 28 Mar 2017 12:49:53 GMT
