@@ -1,0 +1,42 @@
+---
+request:
+  method: get
+  uri: http://www.congreso.es/portal/page/portal/Congreso/Congreso/Diputados/DiputadosTodasLegislaturas?criterio=&next_page=/wc/busquedaAlfabeticaTodasLeg&paginaActual=37
+  body:
+    encoding: US-ASCII
+    string: ''
+  headers:
+    Accept-Encoding:
+    - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+    Accept:
+    - "*/*"
+    User-Agent:
+    - Ruby
+response:
+  status:
+    code: 200
+    message: OK
+  headers:
+    Content-Type:
+    - text/html; charset=utf-8
+    Server:
+    - Oracle Application Server/10.1.2.3.0 Microsoft-IIS/5.0 OracleAS-Web-Cache-10g/10.1.2.3.0
+      (TM;max-age=2592000+0;age=3;ecid=375424438062,0)
+    Content-Length:
+    - '58337'
+    Content-Location:
+    - "/servlet/page/Congreso/Congreso/Diputados/DiputadosTodasLegislaturas"
+    Cache-Control:
+    - max-age=0
+    Date:
+    - Tue, 28 Mar 2017 11:01:45 GMT
+    Connection:
+    - keep-alive
+    Set-Cookie:
+    - ORA_WX_SESSION="545FAD85FC5EA25A1E3FAE66E3BBBF6CCF3E322A-3#4"; path=/
+    - portal=9.0.3+en-us+us+AMERICA+4BC93279B9270044E053AC1A640B0044+5730AEFB4A6B354D93DF537F438A41BC5D944BDAE96C759CC3B06068105C5A8A25E54EFF51D19DAA354D3501BFCB78F1827259D891195AD9AB916112BEDC4ED2E3C29F4B9D1534B3901F1868D325B6E69C453A635DD9EE80;
+      path=/
+  body:
+    encoding: ASCII-8BIT
+  http_version: 
+recorded_at: Tue, 28 Mar 2017 11:01:45 GMT
