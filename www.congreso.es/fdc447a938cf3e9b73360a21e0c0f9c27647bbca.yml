@@ -21,22 +21,25 @@ response:
     - text/html; charset=utf-8
     Server:
     - Oracle Application Server/10.1.2.3.0 Microsoft-IIS/5.0 OracleAS-Web-Cache-10g/10.1.2.3.0
-      (TM;max-age=2592000+0;age=1;ecid=285229387061,0)
-    Content-Length:
-    - '58181'
+      (TH;max-age=2592000+0;age=446;ecid=426963765340,0)
     Content-Location:
     - "/servlet/page/Congreso/Congreso/Diputados/DiputadosTodasLegislaturas"
+    Vary:
+    - Accept-Encoding
     Cache-Control:
     - max-age=0
     Date:
-    - Tue, 28 Mar 2017 10:49:43 GMT
+    - Tue, 28 Mar 2017 10:57:07 GMT
+    Transfer-Encoding:
+    - chunked
     Connection:
+    - Transfer-Encoding
     - keep-alive
     Set-Cookie:
-    - ORA_WX_SESSION="545FAD85FC5EA25A1E3FAE66E3BBBF6CCF3E322A-2#4"; path=/
-    - portal=9.0.3+en-us+us+AMERICA+4BC93654BBC000AEE053AC1A640C00AE+EDE525E4EF2A2A8D0AEFB9453DC5CE30D5B7AC29DA17FC9BD6F34558EC1D48CCF31A1DC17677E67312D05A9A3D5FD54CF2D7F4A1B8A4D30CF69C304522AA063E46E0129480DA07D08CF78263CCCBDDEC18A4D18AF50857AE;
+    - ORA_WX_SESSION="545FAD85FC5EA25A1E3FAE66E3BBBF6CCF3E322A-3#4"; path=/
+    - portal=9.0.3+en-us+us+AMERICA+4BC93279B8DF0044E053AC1A640B0044+D77D6B7EF5AF27F156D78944C919AFCB2DF8A13AB88D2B6DC68C13F23E541F79AA2A54C2792447AFF23CAB66C63923F90B5909D916F21CD2471ABE399161446679CD46B01A5734C153258D106994C11219740859CAB5847E;
       path=/
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Tue, 28 Mar 2017 10:49:43 GMT
+recorded_at: Tue, 28 Mar 2017 10:57:08 GMT
