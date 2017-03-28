@@ -1,0 +1,49 @@
+---
+request:
+  method: get
+  uri: http://www.congreso.es/portal/page/portal/Congreso/Congreso/Diputados/BusqForm?idDiputado=331&idLegislatura=5&next_page=/wc/fichaDiputado
+  body:
+    encoding: US-ASCII
+    string: ''
+  headers:
+    Accept-Encoding:
+    - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+    Accept:
+    - "*/*"
+    User-Agent:
+    - Ruby
+response:
+  status:
+    code: 200
+    message: OK
+  headers:
+    Surrogate-Key:
+    - search-key=("si73" "pa73,1333154" "ht1117773020" "pp73,1333154" "pp73,1333049"
+      "pp73,1330682" "pp73,1")
+    Etag:
+    - '"us, us"'
+    Content-Type:
+    - text/html; charset=utf-8
+    Content-Length:
+    - '53540'
+    Server:
+    - Oracle Application Server/10.1.2.3.0 Microsoft-IIS/5.0 OracleAS-Web-Cache-10g/10.1.2.3.0
+      (TM;max-age=2592000+0;age=2;ecid=72057913639817709,1)
+    Last-Modified:
+    - Tue, 28 Mar 2017 14:17:29 GMT
+    Content-Location:
+    - "/servlet/page/Congreso/Congreso/Diputados/BusqForm"
+    Cache-Control:
+    - max-age=0
+    Date:
+    - Tue, 28 Mar 2017 14:17:30 GMT
+    Connection:
+    - keep-alive
+    Set-Cookie:
+    - ORA_WX_SESSION="545FAD85FC5EA25A1E3FAE66E3BBBF6CCF3E322A-2#4"; path=/
+    - portal=9.0.3+en-us+us+AMERICA+4BCBEE42C5490188E053AC1A640B0188+FA7613B2CBD103FE58C027E8CF798970BEF7112AD44D1F7903E85CB5CB0F2BB6969BA631FB18158DC814E36D7A72893BAC3C1697BD16FCE22824C147AA460D96642EF138F4F85C7922F190D2861048522216C5D71FCD32CB;
+      path=/
+  body:
+    encoding: ASCII-8BIT
+  http_version: 
+recorded_at: Tue, 28 Mar 2017 14:17:30 GMT
